@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+![Cover](./.github/cover.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Expert Notes
 
-Currently, two official plugins are available:
+O Orbit é uma página simples criada apenas para materializar uma ideia que rondava minha cabeça. A ideia? Fazer uma página que representando o movimento de translação dos planetas em torno do sol. A diferença na velocidade do movimento de um planeta para outro foi pensada para tentar representar a realidade. Note que é apenas a diferença como relação entre os planetas, a velocidade geral não representa a realidade (do contrário seria necessário 1 ano para a terra do Orbit dar uma volta completa hehe).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Executando
 
-## Expanding the ESLint configuration
+Após clonar o repositório, acesse a pasta do projeto e execute os comandos abaixo:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```sh
+npm install
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Acesse http://localhost:5173 para visualizar a aplicação.
